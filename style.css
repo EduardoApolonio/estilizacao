@@ -1,0 +1,177 @@
+/*importei a fonte do google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+/*cor de fundo da pagina, cor do texto e fonte  */
+body {
+    background-color: #1a1a2e;  
+    color: #e0e0e0;               
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/*estilização do header */
+header {
+    background-color: #0f3460;  
+    padding: 20px 40px;
+    border-bottom: 4px solid #e94560; 
+    /*borda inferior vermelha*/
+}
+
+/*titulo, fonte diferente e cor para título */
+h1 {
+    font-family: 'Oswald', sans-serif; 
+    color: #e94560;                   
+    font-size: 2.4em;
+    text-align: center;
+    text-transform: uppercase;   
+    margin: 0 0 10px 0;
+}
+
+/*Estilização dos subtitulos*/
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #f5a623;          
+    font-size: 1.6em;
+    text-align: left;
+    border-left: 5px solid #e94560; 
+    padding-left: 10px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+
+
+/*linha horizontal */
+hr {
+    border: none;
+    border-top: 2px solid #e94560;
+    margin: 0;
+}
+
+/*imagens, margin para centralizar a imagem,, border para colocar bordas azuis em volta da imagem, box shadow sombra */
+img {
+    display: block;
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 16px auto;      
+    border: 3px solid #0f3460;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+}
+
+/*estilização do link */
+a {
+    color: #e94560;   
+    font-weight: 500;
+}
+
+
+/*lista ordenada do nav e dos modos de jogo */
+ol {
+    padding-left: 24px;
+    list-style-type: decimal; 
+}
+
+/*lista não ordenada (links e recursos) */
+ul {
+    padding-left: 24px;
+    list-style-type: square;
+}
+
+/*itens de lista */
+li {
+    margin-bottom: 10px;
+    line-height: 1.7;
+}
+
+
+
+/*seção O que é */
+#o-que-e {
+    background-color: #16213e;
+    padding: 24px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+/*seção Objetivo */
+#objetivo {
+    background-color: #1a1a2e;
+    padding: 24px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+/*seção Modos de jogo */
+#modos {
+    background-color: #16213e;
+    padding: 24px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+/*seção Links e Recursos */
+#links {
+    background-color: #1a1a2e;
+    padding: 24px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+
+/*conteúdo principal, margin e padding do box model */
+.conteudo-principal {
+    max-width: 900px;
+    margin: 30px auto;      
+    padding: 0 24px;        
+}
+
+/*classe para a nav */
+.nav-menu {
+    background-color: #0f3460;
+    padding: 12px 20px;      
+    border-radius: 8px;
+    margin-top: 14px;      
+    border: 2px solid #e94560; 
+    border-style: dashed;     
+}
+
+/*classe destaque, para o texto */
+.destaque {
+    background-color: #e94560;
+    color: #ffffff;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+/*mesmo estilo para h1,h2 e strong, mesma fonte */
+h1, h2, strong {
+    font-family: 'Oswald', sans-serif;
+}
+
+/*link com destaque maior */
+nav a, #links a {
+    font-size: 1.05em;
+    letter-spacing: 0.5px;
+}
+
+
+/*main usa padding e margem para afastar do contorno */
+main {
+    padding: 20px;          
+    margin: 0 auto;         
+    max-width: 900px;        
+}
+
+/*rodapé basico*/
+footer {
+    text-align: center;
+    padding: 16px;
+    background-color: #0f3460;
+    color: #aaaaaa;
+    font-size: 0.85em;
+    border-top: 3px solid #e94560;
+    margin-top: 40px;
+}
