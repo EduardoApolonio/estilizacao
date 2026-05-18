@@ -119,25 +119,6 @@ li {
     margin-bottom: 24px;
 }
 
-
-/*conteúdo principal, margin e padding do box model */
-.conteudo-principal {
-    max-width: 900px;
-    margin: 30px auto;      
-    padding: 0 24px;        
-}
-
-
-
-/*classe destaque, para o texto */
-.destaque {
-    background-color: #e94560;
-    color: #ffffff;
-    padding: 2px 8px;
-    border-radius: 4px;
-    font-weight: 700;
-}
-
 /*mesmo estilo para h1,h2 e strong, mesma fonte */
 h1, h2, strong {
     font-family: 'Oswald', sans-serif;
@@ -155,15 +136,4 @@ main {
     padding: 20px;          
     margin: 0 auto;         
     max-width: 900px;        
-}
-
-/*rodapé basico*/
-footer {
-    text-align: center;
-    padding: 16px;
-    background-color: #0f3460;
-    color: #aaaaaa;
-    font-size: 0.85em;
-    border-top: 3px solid #e94560;
-    margin-top: 40px;
 }
