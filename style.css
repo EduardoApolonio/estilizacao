@@ -119,6 +119,16 @@ li {
     margin-bottom: 24px;
 }
 
+/*classe para a nav */
+.nav-menu {
+    background-color: #0f3460;
+    padding: 12px 20px;      
+    border-radius: 8px;
+    margin-top: 14px;      
+    border: 2px solid #e94560; 
+    border-style: dashed;     
+}
+
 /*mesmo estilo para h1,h2 e strong, mesma fonte */
 h1, h2, strong {
     font-family: 'Oswald', sans-serif;
